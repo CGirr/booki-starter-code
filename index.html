@@ -16,9 +16,9 @@
 
 <body>
 <div class="main-container">
-    <header>
+    <header class="header">
         <img class="logo" src="./images/logo/Booki.png" alt="Logo de Booki" />
-        <nav>
+        <nav class="header-nav">
             <ul>
                 <li><a href="#hebergements">Hébergements</a></li>
                 <li><a href="#activites">Activités</a></li>
@@ -29,35 +29,35 @@
         <div >
             <section>
                 <div>
-                    <h2 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h2>
+                    <h2 class="search-title">Trouvez votre hébergement pour des vacances de rêve</h2>
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
-                <form class="form-recherche" method="get" action="">
-                    <div class="recherche-1">
-                        <label for ="location"><i class="fa-solid fa-location-dot"></i></label>
+                <form class="search-form" method="GET" action="">
+                    <span class="search-form-icon">
+                        <i class="fas fa-map-marker-alt"></i></label>
+                    </span>
+                    <div class="search-form-input">
+                        <input class="search-form-input-text" type="text" id="location" name="location" placeholder="Marseille, France">
                     </div>
-                    <div class="recherche-2">
-                        <input type="text" id="location" name="location" placeholder="Marseille, France">
-                    </div>
-                    <div class="recherche-3">
-                        <input  type="submit" value="Rechercher">
+                    <div>
+                        <input class="search-button" type="submit" value="Rechercher">
                     </div>
                 </form>
-                <div class="filtres">
+                <div class="filters">
                     <div>
-                        <span class="text-18">Filtres</span>
+                        <p class="text-18">Filtres</p>
                     </div>
                     <div>
-                        <button class="filtres-button" type="button"><i class="fa-solid fa-money-bill-wave"></i>Économique</button>
+                        <button class="filters-button" type="button"><i class="filters-button-icon fa-solid fa-money-bill-wave"></i>Économique</button>
                     </div>
                     <div>
-                        <button class="filtres-button" type="button"><i class="fa-solid fa-person"></i>Familial</button>
+                        <button class="filters-button" type="button"><i class="filters-button-icon fa-solid fa-person"></i>Familial</button>
                     </div>
                     <div>
-                        <button class="filtres-button" type="button"><i class="fa-solid fa-heart"></i>Romantique</button>
+                        <button class="filters-button" type="button"><i class="filters-button-icon fa-solid fa-heart"></i>Romantique</button>
                     </div>
                     <div>
-                        <button class="filtres-button" type="button"><i class="fa-solid fa-fire"></i>Nos pépites</button>
+                        <button class="filters-button" type="button"><i class="filters-button-icon fa-solid fa-fire"></i>Nos pépites</button>
                     </div>
                 </div>
                 <div class="info">
