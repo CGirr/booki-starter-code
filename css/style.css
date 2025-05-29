@@ -20,7 +20,6 @@ body {
 }
 
 /****** Header ***********/
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -49,7 +48,6 @@ body {
 }
 
 /****** Formulaire de recherche ***********/
-
 .search-title {
     font-size: 22px;
 }
@@ -92,7 +90,6 @@ body {
 }
 
 /****** Filtres ***********/
-
 .filters {
     margin: 35px 0 0 0;
     display: flex;
@@ -276,6 +273,7 @@ a {
     margin-bottom: 5px;
 }
 
+/****** Activités ***********/
 .activites {
     margin-top: 30px;
     padding: 30px;
@@ -308,6 +306,7 @@ a {
     padding-bottom: 20px;
 }
 
+/****** Footer ***********/
 .footer {
     display: flex;
     padding: 20px;
